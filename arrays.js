@@ -42,7 +42,7 @@ var destructivelyRemoveElementFromEndOfArray = ( array ) => {
 }
 
 var removeElementFromEndOfArray = ( array ) => {
-  var a1 = array;
-  a1.splice(array.length-1, 1);
+  var a1 = array,splice(array.length-1,1);
+
   return a1;
 }
