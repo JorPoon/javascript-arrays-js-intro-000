@@ -32,5 +32,5 @@ var destructivelyRemoveElementFromBeginningOfArray = (array) => {
 var removeElementFromBeginningOfArray = ( array ) => {
   var a1 = array.shift();
   return a1;
-  
+
 }
