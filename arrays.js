@@ -35,3 +35,7 @@ var removeElementFromBeginningOfArray = ( array ) => {
   return a1;
 
 }
+
+var destructivelyRemoveElementFromEndOfArray = ( array ) => {
+  array.splice( array.length, 1);
+}
